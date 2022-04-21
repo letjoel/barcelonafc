@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.5rem;
+}
+
+h2 {  
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2rem;
+}
+
+#ReturnArea {
+    font-family: 'Courier New', Courier, monospace;   
+    background-color: #000;
+    color: #fff;
+
+}
