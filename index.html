@@ -12,23 +12,67 @@
 </head>
 
 <body>
-    <h1>Barcelona FC</h1>
-    <h2>2022 Squad</h2>
+    <header>
+        <h1>Barcelona FC</h1>
+        <div class="logoContainer">
+            <div class="logo1"></div>
+            <div class="logo2"></div>
+            <div class="logo3"></div>
+            <div class="logo4"></div>
+        </div>
+        <h2>2022 Squad</h2>
+    </header>
+    <h2>Filters</h2>
+    <section class="SearchArea">
+        <form action="">
+            <label for="playerMinAge">Min Age
+                <select name="playerMinAge" class="SelectInput" id="playerMinAge">
+                    <option value="">Select</option>
+                </select>
+            </label>
+            <label for="playerMaxAge">Max Age
+                <select name="playerMaxAge" class="SelectInput" id="playerMaxAge">
+                    <option value="">Select</option>
+                </select>
+            </label>
+            <label for="playerPosition">Position
+                <select name="playerPosition" class="SelectInput" id="playerPosition">
+                    <option value="">Select</option>
+                    <option value="Goalkeeper">Golkeeper</option>
+                    <option value="Defender">Defender</option>
+                    <option value="Midfield">Midfield</option>
+                    <option value="Forward">Forward</option>
+                </select>
+            </label>
+            <label for="playerNationality">Nationality
+                <select name="playerNationality" class="SelectInput" id="playerNationality">
+                    <option value="">Select</option>
+                </select>
+            </label>
+            <label for="playerContract">Contract
+                <select name="playerContract" class="SelectInput" id="playerContract">
+                    <option value="">Select</option>
+                </select>
+            </label>
+            <label for="playerMinMarketValue">Min Market Value
+                <select name="playerMinMarketValue" class="SelectInput" id="playerMinMarketValue">
+                    <option value="">Select</option>
+                </select>
+            </label>
+            <label for="playerMaxMarketValue">Max Market Value
+                <select name="playerMaxMarketValue" class="SelectInput" id="playerMaxMarketValue">
+                    <option value="">Select</option>
+                </select>
+            </label>
+            <label for="playerName">Name
+                <select name="playerName" class="SelectInput" id="playerName">
+                    <option value="">Select</option>
+                </select>
+            </label>
+        </form>
+    </section>
 
-    <section class="SearchArea"></section>
-
-    <label for="playerPosition">Player Position</label>
-    <select name="playerPosition" id="1">
-        <option value="">Golkeeper</option>
-        <option value="">Defender</option>
-        <option value="">Midfield</option>
-        <option value="">Forward</option>
-    </select>
-
-
-
-
-    <h2>Filtered Results</h2>
+    <h2>Results</h2>
 
     <section id="ReturnArea"></section>
 
