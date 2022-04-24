@@ -53,25 +53,25 @@ label {
 }
 .logo1 {
     width: 30px;
-    height:20px;
+    height:10px;
     background-color: #a50044;
     animation: logo1 3s linear 1s infinite;
 }
 .logo2 {
     width: 30px;
-    height:20px;
+    height:10px;
     background-color: #004d98;
     animation: logo2 3s linear 1s infinite;
 }
 .logo3 {
     width: 30px;
-    height:20px;
+    height:10px;
     background-color: #a50044;
     animation: logo3 3s linear 1s infinite;
 }
 .logo4 {
     width: 30px;
-    height:20px;
+    height:10px;
     background-color: #004d98;
     animation: logo4 3s linear 1s infinite;
 }
